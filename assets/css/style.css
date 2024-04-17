@@ -494,3 +494,9 @@ section.site-footer{
 .site-header .nav-links ul li a, .card-txt p, .casino-btm-txt p, .enter-txt p, .explore-btn a, .sub-heading p{
     font-size: 14px;
 }
+.fix-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}

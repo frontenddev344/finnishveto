@@ -7,3 +7,12 @@ $(document).ready(function(){
     });
 });
 
+
+  $(window).scroll(function(){
+    if($(window).scrollTop()>=200){
+        $('header').addClass('fix-header');
+    }
+    else{
+        $('header').removeClass('fix-header');
+    };
+  });
