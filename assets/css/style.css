@@ -147,7 +147,11 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.explore-btn a:hover {
+    background: transparent;
+    color: #000;
+    border-color: #000;
+}
 
 
 
