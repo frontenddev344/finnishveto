@@ -5,8 +5,14 @@
     .site-logo img {
         max-width: 220px;
     }
-    .site-header .nav-links ul li a {
+    .card-txt p, .enter-txt p, .explore-btn a {
+        font-size: 12px;
+    }
+    .site-header .nav-links ul li a, .casino-btm-txt p, .news-letter-bx input {
         font-size: 13px;
+    }
+    .wel-come-txt p, .pr-wrap p, .pr-wrap ul li, .contact-wrap p {
+        font-size: 14px;
     }
     .banner-wrap {
         height: 500px;
@@ -18,64 +24,33 @@
     .wel-come-txt h3 {
         font-size: 25px;
     }
-    .wel-come-txt p {
-        font-size: 14px;
-    }
+   
     .footer-links ul {
         gap: 15px;
-    }
-    .card-txt h4 {
-        font-size: 18px;
-    }
-    .card-txt p {
-        font-size: 12px;
-    }
-    .casino-btm-txt p {
-        font-size: 13px;
     }
     .card-txt-hold {
         padding: 10px;
     }
-    .enter-txt h4 {
+    .enter-txt h4,  .news-letter-bx  button  {
         font-size: 16px;
     }
     .enter-txt p {
-        font-size: 12px;
         min-height: 275px;
     }
-    .explore-btn a {
-        font-size: 12px;
-    }
-    .sub-heading h2 {
+    .sub-heading h2,  .banner-heading h2 {
         font-size: 25px;
     }
-    .banner-heading h2 {
-        font-size: 25px;
-    }
-    .pr-wrap h2 {
+    .pr-wrap h2,  .newsletter h4 {
         font-size: 22px;
     }
     .pr-wrap h3 {
         font-size: 20px;
     }
     .pr-wrap p, .pr-wrap ul li {
-        font-size: 14px;
         margin-bottom: 10px;
     }
-    .contact-wrap h3 {
+    .contact-wrap h3, .card-txt h4  {
         font-size: 18px;
-    }
-    .contact-wrap p {
-        font-size: 14px;
-    }
-    .newsletter h4 {
-        font-size: 22px;
-    }
-    .news-letter-bx input {
-        font-size: 13px;
-    }
-    .news-letter-bx  button {
-        font-size: 16px;
     }
     .newsletter {
         width: 70%;

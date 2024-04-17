@@ -342,7 +342,6 @@ position: relative;
     margin-bottom: 15px;
 }
 .pr-wrap p, .pr-wrap ul li {
-    font-size: 15px;
     margin-bottom: 10px;
 }
 .pr-wrap ul li{
@@ -489,7 +488,7 @@ section.site-footer{
 .enter-txt h4, .contact-wrap h3, .news-letter-bx  button{
     font-size: 20px;
 }
-.wel-come-txt p, .contact-wrap p, .contact-wrap  a, .news-letter-bx input, .newsletter p{
+.wel-come-txt p, .contact-wrap p, .contact-wrap  a, .news-letter-bx input, .newsletter p, .pr-wrap p, .pr-wrap ul li {
     font-size: 15px;
 }
 .site-header .nav-links ul li a, .card-txt p, .casino-btm-txt p, .enter-txt p, .explore-btn a, .sub-heading p{
