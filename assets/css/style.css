@@ -2,7 +2,6 @@
 :root{
     --light-blue:#3486a1;
     --black:#000;
-    /* --bg:#ADD8E6; */
     --bg:#f7f7f7;
     --white:#fff;
 }
@@ -270,10 +269,21 @@ position: relative;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.enter-img img {
-    width: 100%;
+.enter-img{
     height: 270px;
+    overflow: hidden;
+}
+.enter-img img {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
+}
+.enter-img:hover img{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .explore-btn a {
     font-size: 14px;
