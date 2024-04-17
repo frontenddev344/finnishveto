@@ -65,8 +65,8 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+
 .site-header .nav-links ul li a{
-    font-size: 14px;
     text-transform: uppercase;
     color: #000;
     font-weight: 500;
@@ -129,7 +129,6 @@ img{
     color: var(--light-blue);
 }
 .wel-come-txt p{
-    font-size: 15px;
     margin-bottom: 15px;
 }
 .welcome-img img {
@@ -203,7 +202,6 @@ position: relative;
     color: var(--white);
 }
 .card-txt p {
-    font-size: 14px;
     margin-bottom: 10px;
     color: var(--bg);
 }
@@ -243,9 +241,7 @@ position: relative;
 .casino-card {
     margin-bottom: 25px;
 }
-.casino-btm-txt p{
-    font-size: 14px;
-}
+
 /* casino page css end here */
 
 /* Entertainment page css start here */
@@ -260,12 +256,11 @@ position: relative;
 .enter-txt {
     padding: 15px 10px;
 }
+
 .enter-txt p {
-    font-size: 14px;
     min-height: 280px;
 }
 .enter-txt h4 {
-    font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -285,8 +280,8 @@ position: relative;
     -ms-transform: scale(1.5);
     -o-transform: scale(1.5);
 }
+
 .explore-btn a {
-    font-size: 14px;
     padding: 10px 30px;
     background-color: var(--light-blue);
     color: var(--white);
@@ -312,9 +307,7 @@ position: relative;
     margin-bottom: 20px;
     color: var(--light-blue);
 }
-.sub-heading p{
-    font-size: 14px;
-}
+
 
 /* Entertainment page css end here */
 /* pravice page css start here */
@@ -369,18 +362,14 @@ position: relative;
 
 /* pravice page css end here */
  /* contact us page css start here */
-
 .contact-wrap p {
-    font-size: 15px;
     margin-bottom: 10px;
 }
 .contact-wrap  a{
-    font-size: 15px;
     font-weight: 600;
     color: var(--light-blue);
 }
 .contact-wrap h3 {
-    font-size: 20px;
     font-weight: 700;
     margin-bottom: 5px;
     color: var(--light-blue);
@@ -404,18 +393,20 @@ position: relative;
     margin-bottom: 20px;
     color: var(--light-blue);
 }
+
+
 .news-letter-bx input {
     width: 75%;
     height: 50px;
     padding: 15px;
     border-radius: 50px;
     border: 2px solid #3486b5;
-    font-size: 15px;
     font-weight: 500;
 }
 .news-letter-bx input::placeholder{
     color: #000;
 }
+
 .news-letter-bx  button {
     width: 24%;
     height: 50px;
@@ -423,7 +414,6 @@ position: relative;
     border: 1px solid #3486a1;
     background-color: #3486a1;
     color: #fff;
-    font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -438,7 +428,6 @@ position: relative;
     margin-top: 50px;
 }
 .newsletter p {
-    font-size: 15px;
     text-align: center;
     margin-top: 15px;
 }
@@ -497,3 +486,12 @@ section.site-footer{
     color: #000;
 }
 /* footer section css end here */
+.enter-txt h4, .contact-wrap h3, .news-letter-bx  button{
+    font-size: 20px;
+}
+.wel-come-txt p, .contact-wrap p, .contact-wrap  a, .news-letter-bx input, .newsletter p{
+    font-size: 15px;
+}
+.site-header .nav-links ul li a, .card-txt p, .casino-btm-txt p, .enter-txt p, .explore-btn a, .sub-heading p{
+    font-size: 14px;
+}
