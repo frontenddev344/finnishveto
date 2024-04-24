@@ -8,7 +8,42 @@
     <link rel="icon" href="assets/images/fav-icon.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
-    <title>Blog Review about Casino Hotels in Vegas</title>
+    <title>HOME</title>
+    <style>
+        /* cookies css star here */
+ #cookies-popup {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background-color:#b8d9e5;
+     color: var(--black);
+     padding: 20px 20px;
+     text-align: center;
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
+    /* display: none;*/
+}
+ #cookies-popup p {
+     margin: 0;
+     color: var(--black);
+}
+ #cookies-popup button {
+     background-color: #3486a1;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     cursor: pointer;
+     margin-top: 10px;
+     border-radius: 10px;
+     border: 1px solid #3486a1;
+}
+ #accept-cookies:hover {
+    background: transparent;
+    color: #3486a1;
+    /* border-color: #3486a1; */
+}
+/* cookies css end here */
+    </style>
 </head>
 <body>
     <header class="site-header">
@@ -103,7 +138,17 @@
 
 
 
-     
+        <!-- cookies section start here -->
+        <div id="cookies-popup">
+            <p>Käytämme evästeitä parantaaksemme surffauskokemustasi. Nämä ovat pieniä tekstitiedostoja, joita
+                säilytetään järjestelmässäsi. Hyväksyt evästeiden käytön, jos jatkat verkkosivustomme käyttöä. Voit
+                muokata evästevalintojasi selaimesi asetuksissa. Napsauta tätä nähdäksesi tietosuojakäytäntömme
+                saadaksesi lisätietoja.
+            </p>
+            <button id="accept-cookies">Accepteren</button>
+           
+         </div>
+         <!-- cookies section end here -->
 
 <section class="site-footer ptb-50">
     <div class="container">
@@ -154,6 +199,17 @@
      <script src="assets/js/jquery-3.7.1.min.js"></script>
      <script src="assets/js/bootstrap.bundle.min.js"></script>
      <script src="assets/js/custom.js"></script>
+    <script>
+        
+document.addEventListener("DOMContentLoaded", function() {
+  var acceptCookiesBtn = document.getElementById("accept-cookies");
+  var cookiesPopup = document.getElementById("cookies-popup");
 
+  acceptCookiesBtn.addEventListener("click", function() {
+      cookiesPopup.style.display = "none";
+      // You can add code here to set a cookie to remember the user's choice
+  });
+});
+    </script>
 </body>
 </html>
