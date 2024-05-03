@@ -322,15 +322,31 @@ position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+.pravicy-banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    opacity: 0.9;
+}
+
 .terms-bnr{
     background-image: url(../images/terms-banner.jpg);
+}
+.banner-heading{
+    position: relative;
 }
 .banner-heading h2 {
     font-size: 30px;
     text-align: center;
     font-weight: 800;
     text-transform: uppercase;
+    color: #000;
 }
 .pr-wrap h2 {
     font-size: 25px;
