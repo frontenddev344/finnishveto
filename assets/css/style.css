@@ -258,11 +258,12 @@ position: relative;
 }
 
 .enter-txt p {
-    min-height: 280px;
+    min-height: 350px;
 }
 .enter-txt h4 {
     font-weight: 500;
     margin-bottom: 10px;
+    min-height: 50px;
 }
 .enter-img{
     height: 270px;

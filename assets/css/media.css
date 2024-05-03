@@ -35,7 +35,7 @@
         font-size: 16px;
     }
     .enter-txt p {
-        min-height: 275px;
+        min-height: 340px;
     }
     .sub-heading h2,  .banner-heading h2 {
         font-size: 25px;
@@ -156,12 +156,12 @@
         margin-bottom: 8px;
     }
     .enter-txt h4 {
-        min-height: auto;
+        min-height: 40px;
     }
 }
 @media(max-width:820px){
     .enter-txt p {
-        min-height: 240px;
+        min-height: 280px;
     }
     .casino-bnr .welcome-img img {
         height: 600px;
@@ -178,6 +178,12 @@
 }
 }
 @media(max-width:767px){
+    .enter-txt h4 {
+        min-height: auto;
+    }
+    .enter-txt p {
+        min-height: auto;
+    }
     .casino-bnr .welcome-img img {
         height: 400px;
     }
