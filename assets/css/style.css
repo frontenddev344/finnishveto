@@ -132,7 +132,7 @@ img{
     margin-bottom: 15px;
 }
 .welcome-img img {
-    height: 600px;
+    height: 700px;
     width: 100%;
     object-fit: cover;
 }
@@ -173,7 +173,7 @@ position: relative;
     background-color: var(--light-blue);
 }
 .casino-bnr .welcome-img img {
-    height: 530px;
+    height: 630px;
     width: 100%;
     object-fit: cover;
 }
@@ -258,12 +258,12 @@ position: relative;
 }
 
 .enter-txt p {
-    min-height: 355px;
+    min-height: 460px;
 }
 .enter-txt h4 {
     font-weight: 500;
     margin-bottom: 10px;
-    min-height: 50px;
+    min-height: 65px;
 }
 .enter-img{
     height: 270px;
@@ -456,7 +456,7 @@ section.site-footer{
     justify-content: end;
 }
 .footer-links ul li a{
-    font-size: 12px;
+    font-size: 14px;
     color: var(--black);
     letter-spacing: 0.1em;
     font-weight: 600;
@@ -476,7 +476,7 @@ section.site-footer{
     width: 73%;
 }
 .copy-right p{
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 0.1em;
     text-align: end;
     margin-bottom: 0;
@@ -488,13 +488,13 @@ section.site-footer{
 }
 /* footer section css end here */
 .enter-txt h4, .contact-wrap h3, .news-letter-bx  button{
-    font-size: 20px;
+    font-size: 25px;
 }
 .wel-come-txt p, .contact-wrap p, .contact-wrap  a, .news-letter-bx input, .newsletter p, .pr-wrap p, .pr-wrap ul li {
-    font-size: 15px;
+    font-size: 18px;
 }
 .site-header .nav-links ul li a, .card-txt p, .casino-btm-txt p, .enter-txt p, .explore-btn a, .sub-heading p{
-    font-size: 14px;
+    font-size: 16px;
 }
 .fix-header{
     position: fixed;

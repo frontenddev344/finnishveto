@@ -1,4 +1,7 @@
 @media(max-width:1200px){
+    .casino-bnr .welcome-img img {
+        height: 670px;
+    }
     .site-header .nav-links ul {
         gap: 20px;
     }
@@ -6,13 +9,13 @@
         max-width: 220px;
     }
     .card-txt p, .enter-txt p, .explore-btn a {
-        font-size: 12px;
+        font-size: 15px;
     }
     .site-header .nav-links ul li a, .casino-btm-txt p, .news-letter-bx input {
-        font-size: 13px;
+        font-size: 14px;
     }
     .wel-come-txt p, .pr-wrap p, .pr-wrap ul li, .contact-wrap p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .banner-wrap {
         height: 500px;
@@ -32,13 +35,13 @@
         padding: 10px;
     }
     .enter-txt h4,  .news-letter-bx  button  {
-        font-size: 16px;
+        font-size: 22px;
     }
     .enter-txt p {
-        min-height: 340px;
+        min-height: 540px;
     }
     .sub-heading h2,  .banner-heading h2 {
-        font-size: 25px;
+        font-size: 30px;
     }
     .pr-wrap h2,  .newsletter h4 {
         font-size: 22px;
@@ -56,11 +59,14 @@
         width: 70%;
     }
     .enter-txt h4 {
-        min-height: 40px;
+        min-height: 60px;
     }
 }
 
 @media(max-width:991px){
+    .welcome-img img {
+        height: 650px;
+    }
     .sub-heading h2 {
         font-size: 20px;
     }
@@ -68,7 +74,7 @@
         font-size: 13px;
     }
     .enter-txt p {
-        min-height: 220px;
+        min-height: 315px;
     }
     .casino-card .card-img {
         height: 400px;
@@ -113,11 +119,11 @@
         width: 250px;
     }
     .wel-come-txt h3 {
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 20px;
     }
     .wel-come-txt p {
-        font-size: 13px;
+        font-size: 15px;
         margin-bottom: 10px;
     }
     .footer-wrap {
@@ -156,15 +162,18 @@
         margin-bottom: 8px;
     }
     .enter-txt h4 {
-        min-height: 40px;
+        min-height: 60px;
     }
 }
 @media(max-width:820px){
+    .welcome-img img {
+        height: 770px;
+    }
     .enter-txt p {
-        min-height: 280px;
+        min-height: 460px;
     }
     .casino-bnr .welcome-img img {
-        height: 600px;
+        height: 830px;
     }
     .card-txt {
         top: 0;
@@ -279,11 +288,23 @@
         height: 200px;
     }
     .wel-come-txt h3 {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 15px;
     }
     .wel-come-txt p {
+        font-size: 14px;
+    }
+    .footer-links ul li a {
         font-size: 12px;
+    }
+    .copy-right p {
+        font-size: 11px;
+    }
+    .enter-txt h4, .news-letter-bx  button {
+        font-size: 20px;
+    }
+    .card-txt p, .enter-txt p, .explore-btn a {
+        font-size: 14px;
     }
     .footer-logo img {
         width: 220px;
