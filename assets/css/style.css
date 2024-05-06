@@ -84,6 +84,7 @@ img{
 .banner-left img, .banner-right img{
     height: 100%;
     object-fit: cover;
+    width: 100%;
 }
 .banner-wrap {
     height: 550px;
