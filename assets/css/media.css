@@ -390,4 +390,9 @@
         font-size: 12px;
         margin-bottom: 5px;
     }
+    .banner-wrap {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
