@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 :root{
     --light-blue:#3486a1;
     --black:#000;
@@ -69,8 +70,9 @@ img{
 .site-header .nav-links ul li a{
     text-transform: uppercase;
     color: #000;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 0.1em;
+    font-family: "Crimson Text", serif;
 }
 .site-header .nav-links ul li a.active, .site-header .nav-links ul li a:hover{
     color: #3486a1;
@@ -87,11 +89,34 @@ img{
     width: 100%;
 }
 .banner-wrap {
-    height: 550px;
+    background-image: url(../images/hero1.webp);
+    height: 85vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+}
+.banner-wrap::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    
+}
+.banner-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.banner-content h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
 }
 .banner-txt {
     position: absolute;
@@ -122,7 +147,9 @@ img{
 
 
 /* welcome section css start here */
-
+.casino-bnr.restaurants-wel .welcome-img img {
+    height: 450px;
+}
 .wel-come-txt h3 {
     font-size: 30px;
     font-weight: 600;
@@ -133,7 +160,7 @@ img{
     margin-bottom: 15px;
 }
 .welcome-img img {
-    height: 700px;
+    height: 550px;
     width: 100%;
     object-fit: cover;
 }
@@ -507,7 +534,10 @@ section.site-footer{
 .enter-txt h4, .contact-wrap h3, .news-letter-bx  button{
     font-size: 25px;
 }
-.wel-come-txt p, .contact-wrap p, .contact-wrap  a, .news-letter-bx input, .newsletter p, .pr-wrap p, .pr-wrap ul li {
+.wel-come-txt p{
+    font-size: 17px;
+}
+ .contact-wrap p, .contact-wrap  a, .news-letter-bx input, .newsletter p, .pr-wrap p, .pr-wrap ul li {
     font-size: 18px;
 }
 .site-header .nav-links ul li a, .card-txt p, .casino-btm-txt p, .enter-txt p, .explore-btn a, .sub-heading p{
