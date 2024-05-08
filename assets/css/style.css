@@ -148,7 +148,7 @@ img{
 
 /* welcome section css start here */
 .casino-bnr.restaurants-wel .welcome-img img {
-    height: 450px;
+    height: 400px;
 }
 .wel-come-txt h3 {
     font-size: 30px;
@@ -160,9 +160,12 @@ img{
     margin-bottom: 15px;
 }
 .welcome-img img {
-    height: 550px;
+    height: 450px;
     width: 100%;
     object-fit: cover;
+}
+.wel-come-txt p:last-child{
+    margin-bottom: 0;
 }
 .welcome .row{
     align-items: center;
@@ -201,7 +204,7 @@ position: relative;
     background-color: var(--light-blue);
 }
 .casino-bnr .welcome-img img {
-    height: 630px;
+    height: 530px;
     width: 100%;
     object-fit: cover;
 }
