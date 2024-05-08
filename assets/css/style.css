@@ -70,8 +70,8 @@ img{
 .site-header .nav-links ul li a{
     text-transform: uppercase;
     color: #000;
-    font-weight: 700;
-    letter-spacing: 0.1em;
+    font-weight: 400;
+    /* letter-spacing: 0.1em; */
     font-family: "Crimson Text", serif;
 }
 .site-header .nav-links ul li a.active, .site-header .nav-links ul li a:hover{
